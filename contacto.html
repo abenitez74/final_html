@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="plugins/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="plugins/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Bolívar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" target="footer">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Datatable.html">Datatable</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Registros.html" >Registros Firebase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+  <br>
+  <h3>FORMULARIO DE CONTACTO</h3>
+  <br>
+  
+  <div class="container">
+  
+  <form id="task-form"> 
+
+    <div class="form-row">
+      <div class="form-group col-12 col-md-6">
+        <label for="nombre">Nombres</label>
+        <input type="text" class="form-control" placeholder="Nombre completo" id="task-nombre">
+      </div>
+      <div class="form-group col-12 col-md-6">
+        <label for="apellido">Apellidos</label>
+        <input type="text" class="form-control" placeholder="Apellidos" id="task-apellido">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-12 col-md-6" >
+        <label for="inputEmail4">Correo</label>
+        <input type="email" class="form-control" id="task-email">
+      </div>
+      <div class="form-group col-12 col-md-6">
+        <label for="cedula">Documento</label>
+        <input type="text" class="form-control" id="task-cedula">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Dirección</label>
+      <input type="text" class="form-control" id="task-direccion" placeholder="Barrio, mz, #">
+    </div>    
+
+    <button class="btn btn-info" id="btnModal">Guardar Registro</button>
+    <div id="tvesModal" class="modalContainer">
+      <div class="modal-content">
+        <span class="close">×</span>
+        <h2>Registro Información</h2>
+        <p>El registro fue guardado con exito</p>
+      </div>
+    </div> 
+
+   </form>
+</div>
+
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Gastronomía</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Restaurante Joaco</a></li>
+            <li><a href="#">Restaurante el Zaguan</a></li>
+            <li><a href="#">Asados La Marucha</a></li>
+            <li><a href="#">Comidas Rapida La Quinta</a></li>
+            <li><a href="#">Asados El Tablazo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Panaderías y Pastelerias</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Panadería Kevin</a></li>
+            <li><a href="#">Pizza Pan La Picada</a></li>
+            <li><a href="#">Panaderia Los Mangos</a></li>
+            <li><a href="#">Panadería Pan Tolima </a></li>
+            <li><a href="#">Panadería Mauro</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Sitios Turisticos</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Centro Recreacional Leones</a></li>
+            <li><a href="#">Glamping La Tulia</a></li>
+            <li><a href="#">Santuario Divino Ecce Ommo</a></li>
+            <li><a href="#">Corregimiento Betania</a></li>
+            <li><a href="#">Cascadas Naturales</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4>Siguenos</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>				
+    </div>
+    </div>
+  <div class="row">
+    <div class="col-md-12 copy">
+      <p class="text-center">&copy; Copyright 2020 - Alberto Benitez Bahena.  All rights reserved.</p>
+    </div>
+  </div>
+
+
+  </div>
+  </div>
+</footer>
+
+
+<!-- Button trigger modal -->
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCjI10YFyW-pGdj51gAV-CG4XPiv9dMEMA",
+    authDomain: "fazt-crud-fb-c0cc4.firebaseapp.com",
+    databaseURL: "https://fazt-crud-fb-c0cc4.firebaseio.com",
+    projectId: "fazt-crud-fb-c0cc4",
+    storageBucket: "fazt-crud-fb-c0cc4.appspot.com",
+    messagingSenderId: "932473758063",
+    appId: "1:932473758063:web:86e173f50a51dbbf4d089a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src ="static/js/modal.js"></script>
+<script src ="static/js/index.js"></script>
+</body>
+
+</html>

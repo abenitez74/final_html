@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='shortcut icon' href='../imgs/ps_corp32x32.png' type='image/x-icon' sizes="16x16" />
+    <link rel="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link href="plugins/DataTables-1.10.22/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <script src="plugins/DataTables-1.10.22/js/dataTables.bootstrap.min.js"></script>    
+
+    <style>
+   
+      }
+  </style>
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Bolívar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" target="footer">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Datatable.html">Datatable</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Registros.html" >Registros Firebase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  
+  <!-- ================== FORM ================== -->
+
+  <h1 align = center>Registro</h1>
+<div class="row">
+  <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12"> 
+      <div>
+      <form action="action_page.php" style="border:1px solid #ccc">
+        <p>Por favor llene este formulario para crear una cuenta.</p>
+        <hr>
+
+        <label for="email"><b>Correo</b></label>
+        <input type="text" placeholder="Enter Email" id="email" required>
+
+        <label for="psw"><b>Clave</b></label>
+        <input type="password" placeholder="Enter Password" id="psw" required>
+
+        <label for="psw-repeat"><b>Repetir Clave</b></label>
+        <input type="password" placeholder="Repeat Password" id="psw-repeat" required>
+
+        <label>
+            <input type="checkbox" checked="checked" id="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+            <button type="button" class="btn btn-danger">Cancelar</button>
+            <button type="submit" class="btn btn-success">Agregar Registro</button>
+        </div>
+        </form>
+      </div>
+    </div>
+
+<!-- ================== TABLAS ================== -->
+   
+<div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+      <div>
+      <table class="table datatable" id="data_table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Ciudad</th>
+            <th>País</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">1</td>
+            <td><b>Pedro</b></td>
+            <td>Pérez</td>
+            <td>Cali</td>
+            <td>Colombia</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td><b>Camila</b></td>
+            <td>Gómez</td>
+            <td>Bogotá</td>
+            <td>Colombia</td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td><b>Jhon</b></td>
+            <td>Velasco</td>
+            <td>Lima</td>
+            <td>Perú</td>
+        </tr>
+        </tbody>
+    </table>
+      </div>
+    </div>
+</div>
+</div>
+  
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Gastronomía</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Restaurante Joaco</a></li>
+            <li><a href="#">Restaurante el Zaguan</a></li>
+            <li><a href="#">Asados La Marucha</a></li>
+            <li><a href="#">Comidas Rapida La Quinta</a></li>
+            <li><a href="#">Asados El Tablazo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Panaderías y Pastelerias</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Panadería Kevin</a></li>
+            <li><a href="#">Pizza Pan La Picada</a></li>
+            <li><a href="#">Panaderia Los Mangos</a></li>
+            <li><a href="#">Panadería Pan Tolima </a></li>
+            <li><a href="#">Panadería Mauro</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Sitios Turisticos</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Centro Recreacional Leones</a></li>
+            <li><a href="#">Glamping La Tulia</a></li>
+            <li><a href="#">Santuario Divino Ecce Ommo</a></li>
+            <li><a href="#">Corregimiento Betania</a></li>
+            <li><a href="#">Cascadas Naturales</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4>Siguenos</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>				
+    </div>
+    </div>
+  <div class="row">
+    <div class="col-md-12 copy">
+      <p class="text-center">&copy; Copyright 2020 - Alberto Benitez Bahena.  All rights reserved.</p>
+    </div>
+  </div>
+
+
+
+  </div>
+</footer>
+
+
+<script src="plugins/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
+<script src="plugins/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
